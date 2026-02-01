@@ -1,3 +1,9 @@
-﻿using System;
+﻿// using System;
+using CSharpDummy1.Drinks;
 
-Console.WriteLine("Hello, World!");
+Americano americano = new();
+Espresso espresso = new();
+
+americano.Drink();
+espresso.Drink();
+StaticAmericano.DrinkStatic();
