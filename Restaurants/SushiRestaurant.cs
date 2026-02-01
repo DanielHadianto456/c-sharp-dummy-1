@@ -10,16 +10,10 @@ public class SushiRestaurant1
   {
     Console.WriteLine("One customer entered the restaurant!");
     customerCounts++;
-    IncreaseCustomerCount();
   }
 
   public void PrintCustomerCounts()
   {
     Console.WriteLine("Customer Counts: " + customerCounts);
-  }
-
-  public void IncreaseCustomerCount()
-  {
-    customerCounts++;
   }
 }
